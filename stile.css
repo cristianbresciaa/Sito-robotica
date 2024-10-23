@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Sfondo scuro moderno */
+    color: #ffffff; /* Testo bianco */
+}
+
+header {
+    background-color: #ff3e3e; /* Rosso brillante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    background-color: #00d1ff; /* Blu brillante */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff9f1c; /* Arancione vivace al passaggio del mouse */
+}
+
+main {
+    padding: 30px;
+    background-color: #1e1e1e; /* Grigio scuro per il contenuto */
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px; /* Arrotondamento degli angoli */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Ombra per dare profondità */
+}
+
+h2 {
+    color: #ff3e3e; /* Colore rosso brillante per i titoli */
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ffffff; /* Testo bianco */
+}
+
+footer {
+    background-color: #ff3e3e; /* Stesso rosso brillante del header */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3); /* Ombra sopra il footer */
+}
+
+form {
+    background-color: #292929; /* Sfondo del form grigio scuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #ff9f1c; /* Testo arancione per i label */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #00d1ff; /* Bordo blu vivace */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #1e1e1e; /* Sfondo del campo input scuro */
+    color: white; /* Testo bianco */
+}
+
+form input[type="submit"] {
+    background-color: #ff3e3e; /* Rosso brillante per il pulsante */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff9f1c; /* Arancione brillante al passaggio del mouse */
+}
